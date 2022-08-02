@@ -16,3 +16,5 @@ print(f'Kupuję w sumie: {wszystko} przedmiotów')
 
 
 
+
+

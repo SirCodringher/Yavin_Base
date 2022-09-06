@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block title %}Główna{% endblock %}
+
+{% block content %}
+
+<style>
+	 
+		body{
+			background: #282828;
+			text-align: justify;
+			overflow: hidden;		
+		}
+	 
+		#about{
+			padding-top: 0px;
+			padding-bottom: 101px;
+		}
+	 
+		#about .triangle-right{
+			margin-top: 95px;
+			width: 0;
+			height: 0;
+			border-top: 259px solid transparent;
+			border-left: 470px solid #d6c6b2;
+			border-bottom: 259px solid transparent;
+			
+			
+		}
+	 
+		#about .triangle-right img{
+			position: absolute;
+			left: -1px;
+			top: 80px;
+			width: 74%;
+		 
+		}
+			
+		#about .p-first{
+			margin-bottom: 30px;
+		}
+		
+		
+		#about h2{
+			margin-bottom: 47px;
+			margin-top: 12px;
+			
+        }
+		
+		#about .about-img{
+			position: relative;
+
+			
+		}
+		
+		#about .about-img{
+			position: relative;
+			
+		}
+		
+		#about .about-img .witcher{
+			position: absolute;
+			bottom: 161px;
+			top: 180px;
+			left: 20px;
+            height: 30%;
+			
+		}
+			
+		
+		.color-3{
+			color: #d6c6b2;
+		}
+		
+		
+		.text-white{
+			color: white;
+		}
+		
+		
+		p{
+			margin-bottom: 0;
+			font-size: 16px;
+			line-height: 24px;
+			color: #d6c6b2;b
+		}
+		
+		
+		
+</style>
+ 	
+ 	
+ </head>
+ <body><br>
+ <br>
+ <br>
+ 
+ 	
+ 	<section id="about">
+ 		
+	<div class="container">
+		<div class="row">
+		<div class="col-md-5">
+			<div class="about-img">
+            <img class="shape" src="{{ url_for ('static', filename='about_tringle.png') }}" alt="">
+            <img class="witcher" src="{{ url_for ('static', filename='witcher.webp') }}" alt="">
+                                    
+			</div>
+		</div>
+		<br>
+		<div class="col-md-7 about-right">
+			
+			<h2 class="color-3"><b>O mnie</b>
+			</h2>
+			
+			<p class="p-first text-white">
+				Cośtam o mnie... Cytat z książki "Czas Pogardy" Andrzeja Sapkowskiego:
+			</p>
+			<p class="text-white">
+				"Ty jesteś wiedźminem anachronicznym, a ja wiedźminem nowoczesnym, idącym z duchem czasu. 
+                Dlatego ty wkrótce będziesz bezrobotny, a ja będę prosperował. Strzyg, wiwern, endriag i wilkołaków wkrótce nie będzie już na świecie. A skurwysyny będą zawsze."
+			</p>
+						
+		</div>
+	 
+		</div>
+	</div>
+  
+ 	</section>
+</body>
+
+
+{% endblock %}

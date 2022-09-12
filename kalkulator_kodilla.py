@@ -47,6 +47,7 @@ while True:
                 num = nums[index]
                 ans = ans + num
                 index += 1
+            print(f"Dodaję do siebie {nums}")
             print("\nSuma liczb to: ", ans)
 
         elif choice == '2':
@@ -54,6 +55,7 @@ while True:
             num2 = float(input("Podaj drugą liczbę: "))
             logging.info("Odejmij")
             logging.info((num1, num2))
+            print(f"Odejmuję: {num1} od {num2}")
             print(num1, "-", num2)
             print("Wynik = ", odejmij(num1, num2))
 
@@ -67,6 +69,7 @@ while True:
                 print("Nie wolno dzielić przez 0")
                 break
             else:
+                print(f"Dzielę: {num1} przez {num2}")
                 print(num1, "/", num2)
                 print("Wynik = ", podziel(num1, num2))
 
@@ -91,6 +94,8 @@ while True:
                 num = nums[index]
                 ans = ans * num
                 index += 1
+
+            print(f"Mnożę przez siebie: {nums}" )
             print("\nIloczyn liczb to: ", ans)
 
     else:

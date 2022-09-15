@@ -1,0 +1,13 @@
+body {
+    font-family: Lato;
+}
+
+h1 {
+    color: blue;
+    padding: 10px;
+    border: 1px solid rgb(129, 128, 187);
+    background: black;
+}
+h2 {
+    color: blue;
+}

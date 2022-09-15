@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background: black;
+    background-image: url("pexels.jpg");
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: lato;
+}
+h1 {
+  font-size: 60px;
+  color: rgb(65, 183, 212);
+}
+
+
+p {
+ font-size: 25px;
+}
+
+
+
+h2 {
+  font-size: 40px;
+  color:rgb(65, 183, 212);
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  background: #222222;
+}
+select {
+  font-size: 18px;
+}
+input {
+  font-size: 20px;
+  width: 120px;
+}
+button {
+  font-size: 15px;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>wizytowka</title>
@@ -11,5 +11,16 @@
  <h2>O mnie</h2>
   <h3>Imię: Bronx</h3>
   <h3>Nazwisko: Grudniewski</h3>
+  <form action = "/cgi-bin/hello_get.cgi" method = "get">
+    Wyślij wiadomość: 
+    <br />
+    
+    <textarea rows = "5" cols = "50" name = "description">
+       Napisz coś...
+    </textarea>
+    
+    <input type = "submit" value = "Wyślij" />
+ </form>
+
 </body>
 </html>  
